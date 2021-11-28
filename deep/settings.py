@@ -137,14 +137,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 
 
-import raven
-RAVEN_CONFIG = {
-   'dsn': 'https://c4d1e94261ba4ba099396e852a87cae5@o1076044.ingest.sentry.io/6077218',
-    # If you are using git, you can also automatically configure the
-    # release based on the git info.
-    'release':os.environ.get(os.path.dirname(os.pardir))
-
-}
 
 import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
