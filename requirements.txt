@@ -22,3 +22,4 @@ whitenoise==3.2
 xlrd
 ffmpy
 numpy
+sentry_sdk
