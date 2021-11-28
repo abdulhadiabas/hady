@@ -1,7 +1,7 @@
 anyjson==0.3.3
 contextlib2==0.5.4
 dj-database-url==0.4.1
-Django==1.9.7
+pip install Django==3.2.9
 django-extensions==1.6.7
 django-model-utils==2.0.3
 future==0.16
